@@ -15,10 +15,10 @@ type VideoItem = {
 // - 如果你只有 aid，把 bvid 留空，填 aid（纯数字，如 "12345678"）
 // =========================================================
 const VIDEOS: VideoItem[] = [
-  { title: "和狗狗们一起作图", img: "/images/dogs.png", bvid: "BV1xx411c7XD", aid: "" },
-  { title: "小兔子们的钟形曲线", img: "/images/rabbits.png", bvid: "BV1xx411c7XD", aid: "" },
-  { title: "鸭妈妈和神秘的蛋", img: "/images/duck.png", bvid: "BV1xx411c7XD", aid: "" },
-  { title: "小猴子们的扔栗子比赛", img: "/images/monkeys.png", bvid: "BV1xx411c7XD", aid: "" },
+  { title: "和狗狗们一起作图", img: "/images/dogs.png", bvid: "BV1b15M6yEK9", aid: "" },
+  { title: "小兔子们的钟形曲线", img: "/images/rabbits.png", bvid: "BV1jE5Lz4EuJ", aid: "" },
+  { title: "鸭妈妈和神秘的蛋", img: "/images/duck.png", bvid: "BV1JvRBBLEat", aid: "" },
+  { title: "小猴子们的扔栗子比赛", img: "/images/monkeys.png", bvid: "BV1vyLn6oE6A", aid: "" },
 ]
 
 function buildSrc(v: VideoItem): string {
